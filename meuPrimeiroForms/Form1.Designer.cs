@@ -31,7 +31,7 @@ namespace meuPrimeiroForms
         {
             this.btnDivisao = new System.Windows.Forms.Button();
             this.txtNumero1 = new System.Windows.Forms.TextBox();
-            this.btnSoma = new System.Windows.Forms.Button();
+            this.botaoSoma = new System.Windows.Forms.Button();
             this.btnSubtracao = new System.Windows.Forms.Button();
             this.btnMultiplicacao = new System.Windows.Forms.Button();
             this.txtNumero2 = new System.Windows.Forms.TextBox();
@@ -54,7 +54,7 @@ namespace meuPrimeiroForms
             this.btnDivisao.TabStop = false;
             this.btnDivisao.Text = "/";
             this.btnDivisao.UseVisualStyleBackColor = true;
-            this.btnDivisao.Click += new System.EventHandler(this.button1_Click);
+            this.btnDivisao.Click += new System.EventHandler(this.btnDivisaoClick);
             // 
             // txtNumero1
             // 
@@ -65,22 +65,22 @@ namespace meuPrimeiroForms
             this.txtNumero1.UseWaitCursor = true;
             this.txtNumero1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // btnSoma
+            // botaoSoma
             // 
-            this.btnSoma.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnSoma.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSoma.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnSoma.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
-            this.btnSoma.Font = new System.Drawing.Font("Old English Text MT", 35.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.btnSoma.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btnSoma.Location = new System.Drawing.Point(39, 109);
-            this.btnSoma.Name = "btnSoma";
-            this.btnSoma.Size = new System.Drawing.Size(249, 79);
-            this.btnSoma.TabIndex = 2;
-            this.btnSoma.TabStop = false;
-            this.btnSoma.Text = "+";
-            this.btnSoma.UseVisualStyleBackColor = true;
-            this.btnSoma.Click += new System.EventHandler(this.btnSoma);
+            this.botaoSoma.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.botaoSoma.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.botaoSoma.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.botaoSoma.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
+            this.botaoSoma.Font = new System.Drawing.Font("Old English Text MT", 35.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.botaoSoma.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.botaoSoma.Location = new System.Drawing.Point(39, 109);
+            this.botaoSoma.Name = "botaoSoma";
+            this.botaoSoma.Size = new System.Drawing.Size(249, 79);
+            this.botaoSoma.TabIndex = 2;
+            this.botaoSoma.TabStop = false;
+            this.botaoSoma.Text = "+";
+            this.botaoSoma.UseVisualStyleBackColor = true;
+            this.botaoSoma.Click += new System.EventHandler(this.btnSoma);
             // 
             // btnSubtracao
             // 
@@ -97,7 +97,7 @@ namespace meuPrimeiroForms
             this.btnSubtracao.TabStop = false;
             this.btnSubtracao.Text = "-";
             this.btnSubtracao.UseVisualStyleBackColor = true;
-            this.btnSubtracao.Click += new System.EventHandler(this.button3_Click);
+            this.btnSubtracao.Click += new System.EventHandler(this.btnSubtracaoClick);
             // 
             // btnMultiplicacao
             // 
@@ -153,7 +153,7 @@ namespace meuPrimeiroForms
             this.Controls.Add(this.txtNumero2);
             this.Controls.Add(this.btnMultiplicacao);
             this.Controls.Add(this.btnSubtracao);
-            this.Controls.Add(this.btnSoma);
+            this.Controls.Add(this.botaoSoma);
             this.Controls.Add(this.txtNumero1);
             this.Controls.Add(this.btnDivisao);
             this.Name = "Form1";
@@ -167,7 +167,7 @@ namespace meuPrimeiroForms
 
         private System.Windows.Forms.Button btnDivisao;
         private System.Windows.Forms.TextBox txtNumero1;
-        private System.Windows.Forms.Button btnSoma;
+        private System.Windows.Forms.Button botaoSoma;
         private System.Windows.Forms.Button btnSubtracao;
         private System.Windows.Forms.Button btnMultiplicacao;
         private System.Windows.Forms.TextBox txtNumero2;

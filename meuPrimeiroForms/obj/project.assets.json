@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Entra21.ACESSO14\\source\\repos\\meuPrimeiroForms\\meuPrimeiroForms\\meuPrimeiroForms.csproj",
+      "projectUniqueName": "C:\\Users\\Entra21.ACESSO14\\Source\\Repos\\Entra21-C-sharp\\meuPrimeiroForms\\meuPrimeiroForms.csproj",
       "projectName": "meuPrimeiroForms",
-      "projectPath": "C:\\Users\\Entra21.ACESSO14\\source\\repos\\meuPrimeiroForms\\meuPrimeiroForms\\meuPrimeiroForms.csproj",
+      "projectPath": "C:\\Users\\Entra21.ACESSO14\\Source\\Repos\\Entra21-C-sharp\\meuPrimeiroForms\\meuPrimeiroForms.csproj",
       "packagesPath": "C:\\Users\\Entra21.ACESSO14\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Entra21.ACESSO14\\source\\repos\\meuPrimeiroForms\\meuPrimeiroForms\\obj\\",
+      "outputPath": "C:\\Users\\Entra21.ACESSO14\\Source\\Repos\\Entra21-C-sharp\\meuPrimeiroForms\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Entra21.ACESSO14\\AppData\\Roaming\\NuGet\\NuGet.Config",
